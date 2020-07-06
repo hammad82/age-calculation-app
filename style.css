@@ -1,0 +1,41 @@
+.main{
+    background-color: limegreen;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.tag{
+    width: 100%;
+    background-color: slategrey;
+}
+
+input{
+    color: mediumslateblue;
+    font-size: 20px;
+    background-color: moccasin;
+    padding: 5px;
+    border-radius: 9px;
+}
+button{
+    width: 50%;
+    font-size: medium;
+    border-radius: 5px;
+    color: rgb(255, 15, 163);
+    font-weight:bolder ;
+}
+@media screen and (max-width:800px){
+    h2{
+        color: black;
+        font-style: oblique;
+    }
+    .main{
+        width: 100% !important;
+        margin: 0 auto;
+        background-color: limegreen;
+    }
+    button{
+        width: 30%;
+        background-color: lightskyblue;
+    }
+}
